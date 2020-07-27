@@ -1,0 +1,10 @@
+version: '3'
+
+services:
+  testeFB:
+    image: testeFB
+    build:
+      context: .
+      dockerfile: testeFB/Dockerfile
+
+      
